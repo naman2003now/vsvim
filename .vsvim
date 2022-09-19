@@ -1,0 +1,16 @@
+nnoremap <leader>n :vsc Edit.NextMethod<cr>
+nnoremap <leader>N :vsc Edit.PreviousMethod<cr>
+
+nnoremap R :vsc Refactor.Rename<cr>
+
+" jump between compilation errors
+nnoremap <leader>e :vsc View.NextError<cr>
+nnoremap <leader>E :vsc View.PreviousError<cr>
+
+" testing and debugging
+nnoremap <leader>b :vsc Debug.ToggleBreakpoint<cr>
+nnoremap <leader>r :vsc editor.action.rename<cr>
+nnoremap <leader>R :vsc TestExplorer.DebugAllTestsInContext<cr>
+
+" Rename symbol
+nnoremap cia :vsc editor.action.rename<cr>
