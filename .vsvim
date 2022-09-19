@@ -7,10 +7,6 @@ nnoremap R :vsc Refactor.Rename<cr>
 nnoremap <leader>e :vsc View.NextError<cr>
 nnoremap <leader>E :vsc View.PreviousError<cr>
 
-" testing and debugging
-nnoremap <leader>b :vsc Debug.ToggleBreakpoint<cr>
-nnoremap <leader>r :vsc editor.action.rename<cr>
-nnoremap <leader>R :vsc TestExplorer.DebugAllTestsInContext<cr>
 
 " Rename symbol
 nnoremap cia :vsc editor.action.rename<cr>
